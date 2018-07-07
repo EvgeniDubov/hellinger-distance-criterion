@@ -1,4 +1,3 @@
-from sklearn.tree._utils cimport log
 from sklearn.tree._criterion cimport ClassificationCriterion
 from sklearn.tree._criterion cimport SIZE_t
 
@@ -9,7 +8,7 @@ from libc.math cimport sqrt, pow
 from libc.math cimport abs
 
 
-cdef class Hellinger(ClassificationCriterion):    
+cdef class HellingerDistanceCriterion(ClassificationCriterion):    
     
     cdef double proxy_impurity_improvement(self) nogil:
         cdef double impurity_left
@@ -56,8 +55,7 @@ cdef class Hellinger(ClassificationCriterion):
         cdef SIZE_t c
 
         # stop splitting in case reached pure node with 0 samples of second class
-        if sum_left[1] + sum_right[1] == 0:# or sum_left[0] + sum_right[0] == 0:
-#            with gil: print('sum_left[1]={}'.format(sum_left[1]))
+        if sum_left[1] + sum_right[1] == 0:
             impurity_left[0] = -INFINITY
             impurity_right[0] = -INFINITY
             return

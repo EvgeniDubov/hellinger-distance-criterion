@@ -1,2 +1,4 @@
+.ipynb_checkpoints/
+example/.ipynb_checkpoints/
 build/
 *.c

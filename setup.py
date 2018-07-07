@@ -3,6 +3,11 @@ from Cython.Build import cythonize
 import numpy
 
 setup(
-    ext_modules = cythonize('hellinger_criterion.pyx'),
+	name='hellinger-distance-criterion',
+	version=0.1,
+	url='github.com/EvgeniDubov/hellinger-random-forest',
+    author='Evgeni Dubov',
+	author_email='evgeni.dubov@gmail.com',
+	ext_modules = cythonize('*.pyx'),
 	include_dirs=[numpy.get_include()]
 )

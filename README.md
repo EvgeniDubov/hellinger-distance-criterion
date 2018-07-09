@@ -1,5 +1,5 @@
 # Hellinger Dinstance Criterion
-Hellinger Distance criterion for Random Forest and Decision Tree classifiers sklearn implementation 
+Hellinger Distance criterion for sklearn Random Forest and Decision Tree classifiers 
 
 # Build 
 You will need a cython "header" file (.pxd) from sklearn.

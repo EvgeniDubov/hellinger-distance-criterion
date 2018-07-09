@@ -1,7 +1,7 @@
-# hellinger-random-forest
+# Hellinger Dinstance Criterion
 Random Forest model using Hellinger Distance as split criterion
 
-# build 
+# Build 
 You will need a cython header file (.pxd) from sklearn source code.
 
 In case you've installed sklearn from source code package, you've already got it.

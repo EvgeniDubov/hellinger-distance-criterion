@@ -1,3 +1,8 @@
+
+# Authors: Evgeni Dubov <evgeni.dubov@gmail.com>
+#
+# License: MIT
+
 from sklearn.tree._criterion cimport ClassificationCriterion
 from sklearn.tree._criterion cimport SIZE_t
 

@@ -1,5 +1,5 @@
 
-# Authors: Evgeni Dubov <evgeni.dubov@gmail.com>
+# Author: Evgeni Dubov <evgeni.dubov@gmail.com>
 #
 # License: MIT
 

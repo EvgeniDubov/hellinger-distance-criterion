@@ -1,6 +1,9 @@
 # Hellinger Dinstance Criterion
 Hellinger Distance criterion for sklearn Random Forest and Decision Tree classifiers 
 
+I'm working on adding this to **scikit-learn-contrib/imbalanced-learn**
+[PR #437](https://github.com/scikit-learn-contrib/imbalanced-learn/pull/437)
+
 # Build 
 You will need a cython "header" file (.pxd) from sklearn.
 
